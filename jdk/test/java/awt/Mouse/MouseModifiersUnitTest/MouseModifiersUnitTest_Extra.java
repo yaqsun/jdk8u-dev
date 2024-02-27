@@ -27,10 +27,12 @@
   @bug 6315717
   @summary verifies that modifiers are correct for extra buttons
   @author Andrei Dmitriev : area=awt.mouse
+  @library ../../../../lib/testlibrary
+  @build jdk.testlibrary.OSInfo
   @run main MouseModifiersUnitTest_Extra
  */
 
-import sun.awt.OSInfo;
+import jdk.testlibrary.OSInfo;
 
 import java.awt.*;
 import java.awt.event.*;
