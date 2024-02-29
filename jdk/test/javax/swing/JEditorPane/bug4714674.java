@@ -25,7 +25,7 @@
    @bug 4714674
    @summary Tests that JEditorPane opens HTTP connection asynchronously
    @author Peter Zhelezniakov
-   @run main bug4714674
+   @run main/othervm bug4714674
 */
 
 import javax.swing.*;

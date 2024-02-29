@@ -36,6 +36,8 @@ import sun.awt.OSInfo;
 /**
  * @test
  * @bug 8062561
+ * @key headful
+ * @requires (os.family == "windows")
  * @summary File system view returns null default directory
  * @run main/othervm bug8062561 GENERATE_POLICY
  * @run main/othervm/policy=security.policy bug8062561 CHECK_DEFAULT_DIR run

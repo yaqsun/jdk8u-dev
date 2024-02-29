@@ -27,6 +27,7 @@ import java.awt.image.BufferedImage;
 
 /*
  * @test
+ * @key headful
  * @summary Check for MouseEvents with all mouse buttons
  * @author Dmitriy Ermashov (dmitriy.ermashov@oracle.com)
  * @library ../../../../../lib/testlibrary ../../

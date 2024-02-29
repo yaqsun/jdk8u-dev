@@ -22,7 +22,8 @@
  */
 
 /*
-  @test %I% %E%
+  @test
+  @key headful
   @bug 6315717
   @summary verifies that Robot is accepting extra mouse buttons
   @author Andrei Dmitriev : area=awt.mouse

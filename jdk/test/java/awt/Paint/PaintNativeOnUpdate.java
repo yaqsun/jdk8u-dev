@@ -35,7 +35,7 @@ import java.awt.Point;
  * @library ../../../lib/testlibrary
  * @build ExtendedRobot
  * @author Sergey Bylokhov
- @ @run main PaintNativeOnUpdate
+ * @run main PaintNativeOnUpdate
  */
 public final class PaintNativeOnUpdate extends Label {
 

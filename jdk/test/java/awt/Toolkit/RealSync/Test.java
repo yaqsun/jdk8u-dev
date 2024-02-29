@@ -24,6 +24,7 @@
 /*
   @test
   @bug 6252005
+  @key headful
   @summary Tests that realSync feature works
   @author denis.mikhalkin: area=awt.toolkit
   @run main/timeout=6000 Test
@@ -149,7 +150,7 @@ public class Test {
             }
         }
         errors.clear();
-        System.exit(1);
+        throw new Error();
     }
 
     public static void asser(boolean value) {
